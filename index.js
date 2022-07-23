@@ -38,4 +38,12 @@ const invokeAction = async({ action, id, name, email, phone }) => {
   }
 }
 
-invokeAction(options);
+const start = async (options) => {
+  try {
+      await invokeAction(options);
+  } catch (error) {
+      console.log(error);
+  }
+};
+
+start(options);

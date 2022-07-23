@@ -1,6 +1,6 @@
 # goit-nodejs-hw-01
 
-Весь сисок контактів
+Весь список контактів
 
 node index.js --action list
 https://monosnap.com/file/6KYKmWkDflrAfUOYfO2XS0ggCrqrpA
